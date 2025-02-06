@@ -34,8 +34,7 @@
     }
 
     .navbar-collapse {
-        background-color: var(--color-secondary);
-        padding: 20px;
+
         text-align: center;
         border-radius: 40px;
     }
@@ -69,8 +68,8 @@
     }
 
     .btn-yellow, .btn-white {
-        padding: 13px 23px;
-        font-size: 18px;
+        padding: 8px 15;
+        font-size: 12px;
     }
 
     .btn-icon-left span.icon-left {

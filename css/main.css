@@ -9,13 +9,13 @@
 }
 
 :root {
-    --color-background: #efeae4;
+    --color-background: #f5f2f0;
     --color-black: #212121;
     --color-black-heavy: #000000;
     --color-text: #373737;
     --color-text-out: #90908e;
-    --color-primary: #acce91;
-    --color-secondary: #8db986;
+    --color-primary: #555555;
+    --color-secondary: #555555;
     --color-white: #ffffff;
     --color-red: #e74c3c;
     --color-green: #2ecc71;
@@ -117,8 +117,9 @@ a.navbar-brand {
     background-color: var(--color-primary);
     color: var(--color-white)!important;
     border-radius: 20px;
-    padding: 15px 25px;
-    font-size: 20px;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-size: 15px;
     box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1);
 }
 
@@ -154,7 +155,7 @@ a.navbar-brand {
     height: 450px;
     width: 450px;
     border-radius: 170px;
-    background-color: #8db986;
+    background-color: var(--color-primary);
     position: absolute;
     right: 0;
     top: -80px;
@@ -220,7 +221,7 @@ a.navbar-brand {
 
 .servicos {
     padding-top: 0px;
-    padding-bottom: 150px;
+    padding-bottom: 100px;
 }
 
 .hint-title {
@@ -238,47 +239,43 @@ a.navbar-brand {
 }
 
 .card-icon {   
-    height: 150px;
-    margin: 0 auto;
-    margin-bottom: 30px;
     display: flex;
     justify-content: center;
     align-items: center;
-    
 }
 
-.card-icon img{
-    box-shadow: 0px 15px 15px 5px rgba(7, 0, 0, 0.1)!important;
+.card-icon img {
+    box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.1);
     cursor: pointer;
-}
-.card-icon:hover img{
-    box-shadow: 0px 15px 15px 5px rgba(255, 255, 255, 0.1)!important;
-}
-
-.card-icon1 img{
-    cursor: pointer;
-}
-.card-icon1 img:hover{
-    height: 100px;
-    width: 100px;
-    cursor: pointer;
+    max-width: 100%;
+    height: auto;
 }
 
 .card-text {
     color: var(--color-text-out);
-    font-size: 15px;
-    padding: 0px 30px;
+    font-size: 16px;
+    padding-left: 20px;
 }
 
 .card-text p {
-    font-size: 22px;
+    font-size: 24px;
     color: var(--color-black);
     margin-bottom: 10px;
 }
-.card-text .load {
-    font-size: 16px !important;
-    color: var(--color-green)!important; 
-    
+
+.card-text span {
+    display: block;
+    font-size: 16px;
+    color: #666;
+    line-height: 1.5;
+}
+
+.icons i{
+    font-size: 40px;
+}
+
+.card-icon1 i{
+    font-size: 96px;
 }
 
 .background-servicos {
@@ -482,7 +479,7 @@ a.navbar-brand {
 }
 
 .card-secondary {
-    background-color: var(--color-secondary);
+    background-color: var(--color-white);
     border-radius: 70px;
     padding: 90px;
 }
@@ -507,12 +504,19 @@ a.navbar-brand {
 footer {
     background-color: var(--color-secondary);
     height: 75px;
-    
+    width: 100%;
+    text-align: center;
 }
 
 .container-texto-footer {
+    color: var(--color-background);
     justify-content: center;
     top: 20px;
     margin: 0 auto;
+    width: 100%;
+}
+.bolda{
+    color: var(--color-red);
+
 }
 
